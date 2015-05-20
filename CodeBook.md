@@ -2,13 +2,16 @@
 
 ## Variables
 * Subject
-* Activity
-* Mean of Body Acceleration.Mean.X axis.Time domain
-* Mean of Body Acceleration.Mean.Y axis.Time domain
-* Mean of Body Acceleration.Mean.Z axis.Time domain
-* Mean of Body Acceleration.Standard Deviation.X axis.Time domain
-* Mean of Body Acceleration.Standard Deviation.Y axis.Time domain
-* Mean of Body Acceleration.Standard Deviation.Z axis.Time domain
+
+  id of the subject, labeled from 1 to 30
+
+* Activity : activity performed by the subject for this observation
+* Mean of Body Acceleration.Mean.X axis.Time domain : Average of the body acceleration along the X axis, in seconds
+* Mean of Body Acceleration.Mean.Y axis.Time domain : Average of the body acceleration along the Y axis, in seconds
+* Mean of Body Acceleration.Mean.Z axis.Time domain : Average of the body acceleration along the Z axis, in seconds
+* Mean of Body Acceleration.Standard Deviation.X axis.Time domain : Average of the standard deviation of the body acceleration along the X axis, in seconds
+* Mean of Body Acceleration.Standard Deviation.Y axis.Time domain : Average of the standard deviation of the body acceleration along the Y axis, in seconds
+* Mean of Body Acceleration.Standard Deviation.Z axis.Time domain : Average of the standard deviation of the body acceleration along the Z axis, in seconds
 * Mean of Gravity Acceleration.Mean.X axis.Time domain
 * Mean of Gravity Acceleration.Mean.Y axis.Time domain
 * Mean of Gravity Acceleration.Mean.Z axis.Time domain
