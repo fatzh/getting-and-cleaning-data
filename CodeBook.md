@@ -178,106 +178,106 @@
 
 * Mean.of_Body.Acceleration_Mean_X.axis_Frequency.domain
 
-
+    Average of the body acceleration along the X axis, in hertz
 
 * Mean.of_Body.Acceleration_Mean_Y.axis_Frequency.domain
 
-
+    Average of the body acceleration along the Y axis, in hertz
 
 * Mean.of_Body.Acceleration_Mean_Z.axis_Frequency.domain
 
-
+    Average of the body acceleration along the Z axis, in hertz
 
 * Mean.of_Body.Acceleration_Standard.Deviation_X.axis_Frequency.domain
 
-
+    Average of the standard deviation of the body acceleration along the X axis, in hertz
 
 * Mean.of_Body.Acceleration_Standard.Deviation_Y.axis_Frequency.domain
 
-
+    Average of the standard deviation of the body acceleration along the Y axis, in hertz
 
 * Mean.of_Body.Acceleration_Standard.Deviation_Z.axis_Frequency.domain
 
-
+    Average of the standard deviation of the body acceleration along the Z axis, in hertz
 
 * Mean.of_Body.Acceleration_Jerk_Mean_X.axis_Frequency.domain
 
-
+    Average of the body acceleration along the X axis, in hertz (Jerk signals)
 
 * Mean.of_Body.Acceleration_Jerk_Mean_Y.axis_Frequency.domain
 
-
+    Average of the body acceleration along the Y axis, in hertz (Jerk signals)
 
 * Mean.of_Body.Acceleration_Jerk_Mean_Z.axis_Frequency.domain
 
-
+    Average of the body acceleration along the Z axis, in hertz (Jerk signals)
 
 * Mean.of_Body.Acceleration_Jerk_Standard.Deviation_X.axis_Frequency.domain
 
-
+    Average of the standard deviation of the body acceleration along the X axis, in hertz (Jerk signals)
 
 * Mean.of_Body.Acceleration_Jerk_Standard.Deviation_Y.axis_Frequency.domain
 
-
+    Average of the standard deviation of the body acceleration along the Y axis, in hertz (Jerk signals)
 
 * Mean.of_Body.Acceleration_Jerk_Standard.Deviation_Z.axis_Frequency.domain
 
-
+    Average of the standard deviation of the body acceleration along the Z axis, in hertz (Jerk signals)
 
 * Mean.of_Body.Angular.Velocity_Mean_X.axis_Frequency.domain
 
-
+    Average of the body angular velocity along the X axis, in hertz
 
 * Mean.of_Body.Angular.Velocity_Mean_Y.axis_Frequency.domain
 
-
+    Average of the body angular velocity along the Y axis, in hertz
 
 * Mean.of_Body.Angular.Velocity_Mean_Z.axis_Frequency.domain
 
-
+    Average of the body angular velocity along the Z axis, in hertz
 
 * Mean.of_Body.Angular.Velocity_Standard.Deviation_X.axis_Frequency.domain
 
-
+    Average of the standard deviation of the body angular velocity along the X axis, in hertz
 
 * Mean.of_Body.Angular.Velocity_Standard.Deviation_Y.axis_Frequency.domain
 
-
+    Average of the standard deviation of the body angular velocity along the Y axis, in hertz
 
 * Mean.of_Body.Angular.Velocity_Standard.Deviation_Z.axis_Frequency.domain
 
-
+    Average of the standard deviation of the body angular velocity along the Z axis, in hertz
 
 * Mean.of_Body.Acceleration_Magnitude_Mean_Frequency.domain
 
-
+    Average the body accelaration, in hertz (Magnitude signals)
 
 * Mean.of_Body.Acceleration_Magnitude_Standard.Deviation_Frequency.domain
 
-
+    Average the standard deviation of the body accelaration, in hertz (Magnitude signals)
 
 * Mean.of_Body.Acceleration_Jerk_Magnitude_Mean_Frequency.domain
 
-
+    Average the body accelaration, in hertz (Jerk and Magnitude signals)
 
 * Mean.of_Body.Acceleration_Jerk_Magnitude_Standard.Deviation_Frequency.domain
 
-
+    Average the standard deviation of the body accelaration, in hertz (Jerk and Magnitude signals)
 
 * Mean.of_Body.Angular.Velocity_Magnitude_Mean_Frequency.domain
 
-
+    Average of the body angular velocity, in hertz (Magnitude signals)
 
 * Mean.of_Body.Angular.Velocity_Magnitude_Standard.Deviation_Frequency.domain
 
-
+    Average of the standard deviation of the body angular velocity, in hertz (Magnitude signals)
 
 * Mean.of_Body.Angular.Velocity_Jerk_Magnitude_Mean_Frequency.domain
 
-
+    Average of the body angular velocity, in hertz (Jerk and Magnitude signals)
 
 * Mean.of_Body.Angular.Velocity_Jerk_Magnitude_Standard.Deviation_Frequency.domain
 
-
+    Average of the standard deviation of the body angular velocity, in hertz (Jerk and Magnitude signals)
 
 
