@@ -1,7 +1,7 @@
 ##
 ## run_analysis.R
 ##
-## This script assumes the data to be located in the "data" folder.
+## This script assumes the data to be available in the working directory.
 ##
 ## 1. merge the training and the test sets to create one data set
 ## 2. Extracts only the measurements on the mean and standard deviation 
