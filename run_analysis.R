@@ -24,9 +24,8 @@ library(dplyr)
 ##
 # use to reload everything...
 reload <- TRUE
-
 ### ---------------------------------------------------------------
-### 1. Merges the trianing and the test sets to create one data set
+### 1. Merges the training and the test sets to create one data set
 ### ---------------------------------------------------------------
 
 ## training data : create one dataset with subjects, activities and measures
@@ -90,13 +89,16 @@ features_names <- gsub("\\-std\\(\\)", ".Standard Deviation", features_names)
 features_names <- gsub("\\-X", ".X axis", features_names)
 features_names <- gsub("\\-Y", ".Y axis", features_names)
 features_names <- gsub("\\-Z", ".Z axis", features_names)
-features_names <- gsub("\\.\\.", "\\.", features_names)
 # handle time and frequency domains
 td <- grepl("^t", features_names)
 features_names[td] <- paste(features_names[td], ".Time domain", sep="")
 fd <- grepl("^f", features_names)
 features_names[fd] <- paste(features_names[fd], ".Frequency domain", sep="")
 features_names <- gsub("^t|^f", "", features_names)
+# and convert to R compliant column names
+features_names <- gsub("\\.\\.", "_", features_names)
+features_names <- gsub("\\.", "_", features_names)
+features_names <- make.names(features_names)
 
 
 # add the activity and subject
@@ -115,7 +117,7 @@ by_subject_activity <- group_by(d, Subject, Activity)
 output <- summarise_each(by_subject_activity, funs(mean))
 
 # now the variables are the means, so we need to update the variables names
-features_names <- paste("Mean of", features_names[])
+features_names <- paste("Mean.of", features_names[], sep="_")
 col_names <- c( "Subject", "Activity", features_names)
 colnames(output) <- col_names
 
