@@ -12,7 +12,7 @@ This analysis performs the following operations on the original dataset :
 
 * merge subject informations, activities and observations in one dataset, both for the training and test data.
 * merge training and test data in one dataset.
-* filter the columns we are insterested in, which are only the mean and standard deviations of the variables.
+* filter the columns we are insterested in, which are only the mean and standard deviations of the variables. We considered only the variables estimated from the signals as per the original dataset feature info. The other variables obtained by averaging the signals in a signal window sample are ignored.
 * create an independent tidy data set with the average of each variable for each activity and each subject. The variable names are made R compliant (no spaces or parenthesis) and hopefully more understandable.
 
 ## Instructions
